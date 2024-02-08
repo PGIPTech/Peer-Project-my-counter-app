@@ -1,0 +1,21 @@
+.counter-button {
+    padding: 10%;
+    border: 2%;
+    border-radius: 20%;
+    cursor: none;
+  }
+  
+  .counter-increment {
+    background-color: green;
+    color: white;
+  }
+  
+  .counter-decrement {
+    background-color: white;
+    color: rgb(156, 38, 38);
+  }
+  
+  .counter-reset {
+    background-color: black;
+    color: white;
+  }
