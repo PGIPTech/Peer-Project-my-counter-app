@@ -1,4 +1,4 @@
-// Hasan El-haj, 02/06/2024; Implementing a Simple Counter App that can Count
+// Hasan El-haj, Jesus Hernandez, Muhammad Siddiqui, Steve Hutchinson. 02/06/2024; Implementing a Simple Counter App that can Count
 import './Counter.css';
 // Importing the UseState library from react for counter
 import React, {useState} from "react";

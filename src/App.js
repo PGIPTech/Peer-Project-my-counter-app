@@ -11,6 +11,13 @@ function App() {
           The Simple Counter 
         </p>
         <Counter />
+        <div className="App-Names">
+      
+        <p>
+        By Hasan El-haj, Jesus Hernandez, Muhammad Siddiqui, Steve Hutchinson.
+        </p>
+
+        </div>
         <a
           className="App-link"
           href="https://reactjs.org"
