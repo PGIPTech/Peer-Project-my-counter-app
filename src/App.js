@@ -11,8 +11,7 @@ function App() {
           The Simple Counter 
         </p>
         <Counter />
-        <div className="App-Names">
-      
+        <div className="App-Names">  
         <p>
         By Hasan El-haj, Jesus Hernandez, Muhammad Siddiqui, Steve Hutchinson.
         </p>

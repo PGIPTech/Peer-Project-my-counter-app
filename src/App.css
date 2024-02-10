@@ -30,6 +30,13 @@
   color: #61dafb;
 }
 
+.App-Names {
+  font-size: large;
+  padding-top: 20px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: black;
+}
+
 
 @keyframes App-logo-spin {
   from {
