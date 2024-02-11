@@ -5,11 +5,13 @@ import Counter from './Counter';
 function App() {
   return (
     <div className="App">
+
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
+  
+      <p className="App-Title">
           The Simple Counter 
-        </p>
+      </p>
+    
         <Counter />
         <div className="App-Names">  
         <p>
@@ -17,6 +19,7 @@ function App() {
         </p>
 
         </div>
+        <img src={logo} className="App-logo" alt="logo" />
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -25,9 +28,10 @@ function App() {
         >
          Using React.js
         </a>
+        
       </header>
-
     </div>
+    
   );
 }
 

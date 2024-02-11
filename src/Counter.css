@@ -17,12 +17,12 @@
     border-radius: 160px;
     height: 160px;
     width: 160px;
-    
+    animation: spin infinite 1s alternate;
   }
   
   .counter-decrement {
     margin: 25px;
-    background-color: salmon;
+    background-color: orange;
     color: black;
     font-size: 30px;
     font-weight: bolder;
@@ -30,8 +30,9 @@
     border-radius: 160px;
     height: 160px;
     width: 160px;
+    
   }
-  
+
   .counter-reset {
     margin: 25px;
     background-color: turquoise;
@@ -42,21 +43,29 @@
     border-radius: 160px;
     height: 160px;
     width: 160px;
+    animation: spin infinite 2s alternate-reverse;
   }
 
   
   .counter-number {
-    font-size: 350%;
+    font-size: 20vmin;
     color: rgb(122, 241, 235);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bolder;
     margin: 50px;
+    animation: colorChange 2s infinite alternate;
   }
 
-  @media (prefers-reduced-motion: no-preference) {
-    .counter-number {
-      animation: colorChange infinite 5s linear;
-    }
+  .counter-increment:active {
+    animation: bounce infinite 1s ease-in-out alternate;
+  }
+
+  .counter-decrement:active {
+    animation: bounce infinite 1s ease-in-out alternate;
+  }
+
+  .counter-reset:active {
+    animation: bounce infinite 1s ease-in-out alternate;
   }
 
   @keyframes colorChange 
@@ -64,4 +73,24 @@
     from { filter: hue-rotate(0deg); }
     to { filter: hue-rotate(360deg); } 
   }
+
+  @keyframes move {
+    50% { opacity: 1; transform: translateY(0); }
+    70% { opacity: 0.5; transform: translateY(-50px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
   
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  @keyframes bounce {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-200px); }
+    100% { transform: translateY(0); }
+  }
