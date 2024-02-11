@@ -17,9 +17,9 @@ function Counter() {
     return (
         // The Visual Button Elements 
         <div>
-            <p> {count} </p>
-            <button className="counter-increment" onClick={increment}>Increment</button>
-            <button className="counter-decrement" onClick={decrement}>Decrement</button>
+            <p className="counter-number"> {count} </p>
+            <button className="counter-increment" onClick={increment}>+</button> 
+            <button className="counter-decrement" onClick={decrement}>-</button>
             <button className="counter-reset" onClick={reset}>Reset</button>
         </div>
     );
