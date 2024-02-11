@@ -22,7 +22,8 @@
   
   .counter-decrement {
     margin: 25px;
-    background-color: orange;
+    background-image: url(https://i.pinimg.com/originals/ff/4c/1f/ff4c1fa814c932c9ff0d4dbeb3bf82db.gif);
+    background-size: cover;
     color: black;
     font-size: 30px;
     font-weight: bolder;

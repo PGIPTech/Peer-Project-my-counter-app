@@ -16,7 +16,6 @@
 }
 
 .App-header {
-  background-color: #000000;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -33,7 +32,6 @@
   font-weight: bolder;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: lightblue;
-  background: black;
 }
 
 .App-link {
