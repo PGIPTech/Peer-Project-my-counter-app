@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 30vmin;
+  height: 20vmin;
   pointer-events: none;
   margin: 50px;
   color: lightblue;
@@ -28,7 +28,7 @@
 }
 
 .App-Title {
-  font-size: 7vmin;
+  font-size: 3vmin;
   font-weight: bolder;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: lightblue;
