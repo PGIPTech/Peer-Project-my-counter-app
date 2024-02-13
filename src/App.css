@@ -69,4 +69,29 @@
     from { filter: hue-rotate(0deg); }
     to { filter: hue-rotate(360deg); } 
 }
-  
+
+ /* Styles for screens wider than 768px */
+ @media (min-width: 768px) {
+  .container {
+    max-width: fit-content;
+    margin: 0 auto;
+  }
+  .sidebar {
+    float: center;
+    width: 20%;
+  }
+  .content {
+    margin-left: 20%;
+  }
+}
+
+/* Styles for screens smaller than 768px */
+@media (max-width: 767px) {
+  .container {
+    width: 50%;
+  }
+  .sidebar, .content {
+    display: block;
+    width: 100%;
+  }
+}
