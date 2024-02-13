@@ -95,3 +95,29 @@
     50% { transform: translateY(-200px); }
     100% { transform: translateY(0); }
   }
+
+  /* Styles for screens wider than 768px */
+@media (min-width: 768px) {
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  .sidebar {
+    float: left;
+    width: 20%;
+  }
+  .content {
+    margin-left: 20%;
+  }
+}
+
+/* Styles for screens smaller than 768px */
+@media (max-width: 767px) {
+  .container {
+    width: 100%;
+  }
+  .sidebar, .content {
+    display: block;
+    width: 100%;
+  }
+}
