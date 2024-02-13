@@ -9,8 +9,8 @@
   
   .counter-increment {
     margin: 25px;
-    background-color: greenyellow;
-    color: black;
+    background-image: url(https://i.pinimg.com/originals/36/e4/d0/36e4d0b856694fc471344b644a1dd6e4.gif);
+    color: rgb(255, 255, 255);
     font-size: 30px;
     font-weight: bolder;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -24,7 +24,7 @@
     margin: 25px;
     background-image: url(https://i.pinimg.com/originals/ff/4c/1f/ff4c1fa814c932c9ff0d4dbeb3bf82db.gif);
     background-size: cover;
-    color: black;
+    color: rgb(255, 255, 255);
     font-size: 30px;
     font-weight: bolder;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -36,8 +36,8 @@
 
   .counter-reset {
     margin: 25px;
-    background-color: turquoise;
-    color: black;
+    background-image: url(https://i.gifer.com/J4o.gif);
+    color: rgb(255, 255, 255);
     font-size: 31px;
     font-weight: bolder;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
